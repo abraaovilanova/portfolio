@@ -1,0 +1,40 @@
+.home-hero{
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text-container{
+    flex: 2;
+}
+.home-hero-text{
+    color: #abb8c3;
+}
+.home-hero-text a {
+    color: #a9ff03;
+    /* text-decoration: none; */
+    
+}
+
+/* a{ 
+    color: aquamarine;
+} */
+
+.home-hero-main-txt{
+    font-size: 4.5rem;
+}
+
+
+.home-hero-second-txt{
+    font-size: 2.5rem;
+}
+
+.hero-img-container{
+    flex: 1
+}
+
+.hero-img{
+    width: 350px;
+    height: 410px;
+}

@@ -1,0 +1,27 @@
+
+.accordion{
+    margin: 6px;
+    padding: 6px;
+    max-width: 500px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.accordion-title{
+    margin-bottom: 6px;
+    font-size: 1.2rem;
+    color: #c58fff;
+    background-color: black;
+    border: none;
+}
+
+.accordion-content{
+    text-align: left;
+    border-left: 1px solid #c58fff;
+}
+
+.accordion-content > ul {
+    list-style: none;
+}

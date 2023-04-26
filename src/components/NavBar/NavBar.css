@@ -1,0 +1,31 @@
+.nav-bar{
+    display: flex;
+    flex-direction: 'row';
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-link {
+    margin-left: 12px;
+    flex: 4;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-bar-link:hover{
+    color: #a9ff03;
+}
+
+.nav-bar-navegation {
+    flex: 1
+}
+
+.nav-bar-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
