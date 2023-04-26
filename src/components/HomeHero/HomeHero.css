@@ -3,6 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+    .home-hero{
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .hero-text-container{
@@ -16,10 +24,6 @@
     /* text-decoration: none; */
     
 }
-
-/* a{ 
-    color: aquamarine;
-} */
 
 .home-hero-main-txt{
     font-size: 4.5rem;

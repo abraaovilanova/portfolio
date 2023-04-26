@@ -27,13 +27,19 @@ function App() {
       message,
     };
     e.preventDefault();
-    send("service_b87r36j", "template_q5wvh8h", toSend, "SeQxpIvEFmR2GsPcv")
-      .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
-      })
-      .catch((err) => {
-        console.log("FAILED...", err);
-      });
+    // send("service_b87r36j", "template_q5wvh8h", toSend, "SeQxpIvEFmR2GsPcv")
+    //   .then((response) => {
+    //     console.log("SUCCESS!", response.status, response.text);
+    //   })
+    //   .catch((err) => {
+    //     console.log("FAILED...", err);
+    //   });
+
+    setName("");
+    setCompany("");
+    setEmail("");
+    setPhone("");
+    setMessage("");
   }
 
   function handleTelefone(event) {

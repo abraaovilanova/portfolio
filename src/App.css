@@ -25,6 +25,7 @@
   align-items: center;
   align-content: center;
   margin: 0 12px;
+  flex-wrap: wrap;
 }
 
 
@@ -119,6 +120,13 @@
   justify-content: center;
   align-items: center;
   margin: 0 24px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px){
+  .contact-container{
+    flex-direction: column-reverse;
+  }
 }
 
 .contact-input{
@@ -132,6 +140,7 @@
 .input-container{
   display: flex;
   flex-direction: column;
+  
 }
 
 .contact-section{
